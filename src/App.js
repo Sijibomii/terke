@@ -1,6 +1,7 @@
 import Disclamier from "./components/Disclamier";
 import Header from "./components/Header";
 import HeroTop from "./components/HeroTop";
+import HeroBottom from "./components/HeroBottom";
 import { useRef } from "react";
 function App() {
   const modal = useRef()
@@ -38,6 +39,7 @@ function App() {
         <Disclamier />
         <Header modal={modal} body={body} toggleModal={toggleModal} />
         <HeroTop />
+        <HeroBottom />
       </div>
         
     </div>
