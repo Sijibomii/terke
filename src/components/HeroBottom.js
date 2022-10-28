@@ -1,9 +1,9 @@
 import React from 'react'
-
+import terke from '../static/terke.JPG';
 const HeroBottom = () => {
   return (
     <div>
-      <div className='bg-[#222222] rounded-lg shadow-current px-3 py-4'>
+      <div className='bg-[#222222] rounded-3xl shadow-current px-4 py-8'>
         <div className='top flex items-center justify-between'>
           <h4 className='text-[#D0D0D0]'>Shipment Tracking</h4>
           <div className='mr-1'>
@@ -15,10 +15,24 @@ const HeroBottom = () => {
           <h4 className='text-[#D0D0D0]'>Shipment rate</h4>
         </div>
 
-        <div className='bg-[#29292] rounded-lg shadow-curent px-2 py-4 mt-8'>
-          <h4>Track Shipment</h4>
-          
+        <div className='inner-form rounded-3xl shadow-curent px-4 py-8 mt-8'>
+          <h4 className='text-[#D0D0D0] text-lg'>Track Shipment</h4>
+          <div className='form'>
+            <form className='flex flex-col py-4'>
+              <input type="text" className='bg-[#363636] px-4 py-4 rounded-xl'
+              placeholder='Enter your shipment code' />
+              <select className='mt-4 bg-[#363636] px-4 py-4 rounded-xl' >
+                <option value="volvo">Select your services</option>
+                
+              </select>
+              <a href="" className='mt-8 py-4 px-4 bg-[#FF6913] text-center text-white rounded-xl '>Track Now</a>
+            </form>
+          </div>
         </div>
+      </div>
+
+      <div className='mt-4 py-4'>
+        <img src={terke} className='' />
       </div>
     </div>
   )
