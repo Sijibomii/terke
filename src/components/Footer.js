@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='pt-6 mt-8 about px-4 rounded-xl '>
+    <div className='pt-6 mt-8 about px-4 lg:px-8 rounded-xl '>
       <div className='flex flex-col items-center justify-center py-4'>
         <h2 className='text-3xl font-bold text-white'>LET US DELIVER YOUR PACKAGE TO ITS DESTINATION</h2>
         <div className='flex flex-col items-center justify-center md:flex-row'>
@@ -16,9 +16,9 @@ const Footer = () => {
         </div>
       </div>
 
-      <div className='footer pt-5 mb-4 mt-10 '>
-        <div className=''>
-          <div className=''>
+      <div className='footer pt-5 mb-4 mt-10 lg:pb-8 '>
+        <div className='lg:flex lg:items-start lg:justify-between'>
+          <div className='lg:py-4'>
             <h1 className='text-4xl font-bold text-white mb-4'>terke</h1>
             <h4 className='calmer-white mb-6'>The faster, easiest way to book and manage your international shipments.</h4>
           </div>
@@ -40,7 +40,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div className="">
+          <div className="lg:py-4">
             <ul>
               <li className='text-white text-xl py-2'>Social Media</li>
               <li className='calmer-white text-xl py-2'>Instagram</li>

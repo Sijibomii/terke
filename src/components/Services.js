@@ -77,8 +77,8 @@ const Services = () => {
             </div>
 
             <div className='border-y-white py-4 lg:py-12' onClick={() => toggleAccordion(2)} ref={accord3}>
-              <div className='flex items-center justify-betweeen  pb-6 md:justify-betweeen md:w-1/2 lg:w-full'>
-                <h3 className='text-white text-3xl lg:text-5xl font-bold md:mr-4 '><span className='text-[#FF6913]'> Ground</span> Shipping</h3>
+              <div className='flex items-center justify-betweeen pb-6 md:justify-betweeen md:w-1/2 lg:w-full'>
+                <h3 className='text-white text-3xl lg:text-5xl font-bold md:mr-4 lg:mr-24'><span className='text-[#FF6913]'> Ground</span> Shipping</h3>
                 {/* up */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="hidden text-white font-bold bi bi-arrow-up-right" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/> </svg>
                 {/* down */}
