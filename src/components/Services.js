@@ -35,22 +35,22 @@ const Services = () => {
   }
 
   return (
-    <div className='py-6 mt-4 px-4 mt-28'>
+    <div className='py-6 mt-4 px-4 mt-28 md:mt-60 lg:mt-72'>
       <h4 className='text-[#FF6913] mb-4'>Services</h4>
-      <h2 className='text-white text-3xl font-bold mb-6'>MANAGE YOUR PACKAGE FROM LOCAL <span className='text-[#FF6913]'>TO THE WORLD.</span> </h2>
-      <p className='calmer-white'>Terke is a logostics provider of integrated freight solutions. Terke provides dedicated frieght solutions 
+      <h2 className='text-white text-3xl font-bold mb-6 lg:text-7xl'>MANAGE YOUR PACKAGE FROM LOCAL <span className='text-[#FF6913]'>TO THE WORLD.</span> </h2>
+      <p className='calmer-white lg:w-1/2'>Terke is a logostics provider of integrated freight solutions. Terke provides dedicated frieght solutions 
         including: less than Truck Load, Warehousing/Fulfillment, Drayage, and Transloading.
       </p>
 
-      <div className='flex flex-col py-4 mt-8'>
-        <div className='bg-white rounded-xl'>
-          <img src={Container} />
+      <div className='flex flex-col py-4 mt-8 lg:flex-row lg:items-center lg:justify-between'>
+        <div className='bg-white rounded-xl md:flex md:items-center md:justify-center service-1 lg:mr-12'>
+          <img src={Container} className="md:h-full md:w-full" />
         </div>
-        <div className='mt-16'>
+        <div className='mt-16 service-2 lg:mt-0 '>
           <div className=''>
-            <div className='border-y-white py-4' onClick={() => toggleAccordion(0)} ref={accord1}>
-              <div className='flex items-center justify-center pb-6'>
-                <h3 className='text-white text-3xl font-bold'><span className='text-[#FF6913]'> Worldwide</span> Shipping</h3>
+            <div className='border-y-white py-4 lg:py-12' onClick={() => toggleAccordion(0)} ref={accord1}>
+              <div className='flex items-center  pb-6 justify-betweeen md:justify-betweeen md:w-1/2 lg:w-full'>
+                <h3 className='text-white text-3xl lg:text-5xl font-bold md:mr-4'><span className='text-[#FF6913]'> Worldwide</span> Shipping</h3>
                 {/* up */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="hidden text-white font-bold bi bi-arrow-up-right" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/> </svg>
                 {/* down */}
@@ -62,9 +62,9 @@ const Services = () => {
               </div>
             </div>
 
-            <div className='border-y-white py-4' onClick={() => toggleAccordion(1)} ref={accord2}>
-              <div className='flex items-center justify-between pb-6'>
-                <h3 className='text-white text-3xl font-bold'><span className='text-[#FF6913]'> Sea</span> Shipping</h3>
+            <div className=' py-4 lg:py-12' onClick={() => toggleAccordion(1)} ref={accord2}>
+              <div className='flex items-center justify-between pb-6 md:justify-betweeen md:w-1/2 lg:w-full'>
+                <h3 className='text-white text-3xl lg:text-5xl font-bold md:mr-4'><span className='text-[#FF6913]'> Sea</span> Shipping</h3>
                 {/* up */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="hidden text-white font-bold bi bi-arrow-up-right" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/> </svg>
                 {/* down */}
@@ -76,9 +76,9 @@ const Services = () => {
               </div>
             </div>
 
-            <div className='border-y-white py-4' onClick={() => toggleAccordion(2)} ref={accord3}>
-              <div className='flex items-center justify-center pb-6'>
-                <h3 className='text-white text-3xl font-bold'><span className='text-[#FF6913]'> Ground</span> Shipping</h3>
+            <div className='border-y-white py-4 lg:py-12' onClick={() => toggleAccordion(2)} ref={accord3}>
+              <div className='flex items-center justify-betweeen  pb-6 md:justify-betweeen md:w-1/2 lg:w-full'>
+                <h3 className='text-white text-3xl lg:text-5xl font-bold md:mr-4 '><span className='text-[#FF6913]'> Ground</span> Shipping</h3>
                 {/* up */}
                 <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" className="hidden text-white font-bold bi bi-arrow-up-right" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M14 2.5a.5.5 0 0 0-.5-.5h-6a.5.5 0 0 0 0 1h4.793L2.146 13.146a.5.5 0 0 0 .708.708L13 3.707V8.5a.5.5 0 0 0 1 0v-6z"/> </svg>
                 {/* down */}

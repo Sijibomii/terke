@@ -2,7 +2,7 @@ import React from 'react'
 import terke from '../static/terke.JPG';
 const HeroBottom = () => {
   return (
-    <div>
+    <div className='lg:flex lg:items-center lg:justify-between lg:mt-8'>
       <div className='bg-[#222222] rounded-3xl shadow-current px-4 py-8'>
         <div className='top flex items-center justify-between'>
           <h4 className='text-[#D0D0D0]'>Shipment Tracking</h4>
@@ -31,8 +31,8 @@ const HeroBottom = () => {
         </div>
       </div>
 
-      <div className='mt-4 py-4'>
-        <img src={terke} className='' />
+      <div className='mt-4 py-4 md:flex md:items-center md:justify-center'>
+        <img src={terke} className='img' />
       </div>
     </div>
   )

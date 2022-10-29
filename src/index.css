@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  background-color: #141414;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -78,8 +82,8 @@ input:checked + .slider:before {
   background-color: rgb(54, 54, 54);
 }
 .border-y-white{
-  border-top: 1px solid rgb(161, 161, 161);
-  border-bottom: 1px solid rgb(161, 161, 161);
+  border-top: 1px solid rgb(83, 83, 83);
+  border-bottom: 1px solid rgb(83, 83, 83);
 }
 
 .btn-shadow{
@@ -90,4 +94,38 @@ input:checked + .slider:before {
 
 .footer{
   border-top: 1px solid white;
+}
+
+@media (min-width: 768px) { 
+  .flex-about-1{
+    flex: 70%;
+  }
+  .flex-about-2{
+    flex: 30%;
+  }
+}
+
+@media (min-width: 1024px) { 
+  .flex-hero-1{
+    flex: 70%;
+  }
+  .flex-hero-2{
+    flex: 30%;
+  }
+  .paa-width{
+    width: 70%;
+  }
+  .img{
+    width: 900px;
+    height: 560px;
+  }
+  .service-1{
+    flex: 45%;
+  }
+  .service-2{
+    flex: 55%;
+  }
+  .accord-w{
+    width: 65%!important;
+  }
 }
