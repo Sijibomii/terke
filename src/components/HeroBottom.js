@@ -22,7 +22,7 @@ const HeroBottom = () => {
               <input type="text" className='bg-[#363636] px-4 py-4 rounded-xl'
               placeholder='Enter your shipment code' />
               <select className='mt-4 bg-[#363636] px-4 py-4 rounded-xl' >
-                <option value="volvo">Select your services</option>
+                <option value="sel" className='text-[#D0D0D0]'>Select your services</option>
                 
               </select>
               <a href="" className='mt-8 py-4 px-4 bg-[#FF6913] text-center text-white rounded-xl '>Track Now</a>
