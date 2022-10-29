@@ -5,6 +5,8 @@ import HeroBottom from "./components/HeroBottom";
 import About from "./components/About";
 import About2 from "./components/About2";
 import Services from "./components/Services";
+import Offices from "./components/Offices";
+import Footer from "./components/Footer";
 import { useRef } from "react";
 function App() {
   const modal = useRef()
@@ -17,7 +19,7 @@ function App() {
 
   return (
     // rememeber to set max-w here
-    <div className="App bg-[#141414] max-w-7xl mx-auto px-6 pb-40">
+    <div className="App bg-[#141414] max-w-7xl mx-auto px-6">
       <div className="modal hidden h-screen py-16" ref={modal}>
         <div className="top flex items-center justify-between">
           <h1 className='text-[#FF6913] font-bold text-4xl'>terke</h1>
@@ -46,6 +48,8 @@ function App() {
         <About />
         <About2 />
         <Services />
+        <Offices />
+        <Footer />
       </div>
         
     </div>

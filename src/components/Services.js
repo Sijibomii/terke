@@ -18,7 +18,7 @@ const Services = () => {
   })
 
   function toggleAccordion(id){
-    const { isOpen, element } = accordion[id]
+    const { element } = accordion[id]
 
     const [div, div2] = element.current.children; 
     
