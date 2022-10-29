@@ -4,6 +4,7 @@ import HeroTop from "./components/HeroTop";
 import HeroBottom from "./components/HeroBottom";
 import About from "./components/About";
 import About2 from "./components/About2";
+import Services from "./components/Services";
 import { useRef } from "react";
 function App() {
   const modal = useRef()
@@ -44,6 +45,7 @@ function App() {
         <HeroBottom />
         <About />
         <About2 />
+        <Services />
       </div>
         
     </div>
